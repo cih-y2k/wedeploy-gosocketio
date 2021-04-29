@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/cih-y2k/wedeploy-gosocketio/ack"
+	"github.com/cih-y2k/wedeploy-gosocketio/internal/protocol"
+	"github.com/cih-y2k/wedeploy-gosocketio/websocket"
 	ws "github.com/gorilla/websocket"
-	"github.com/wedeploy/gosocketio/ack"
-	"github.com/wedeploy/gosocketio/internal/protocol"
-	"github.com/wedeploy/gosocketio/websocket"
 )
 
 const (
